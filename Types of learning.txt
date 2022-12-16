@@ -1,0 +1,67 @@
+TYPE 1 : TYPE OF Learning PROBLEMS
+
+Type  of Learning problems
+
+1.supervised 
+2.unsupervised 
+3.reinforcement
+
+1)Supervised Learning:-
+	In this,using the data, which have taggged data/which has input with correct output,
+here we trained the labeled data(both i/p and o/p).
+
+Goal:To predict the output
+
+gives accurate results than unsupervised
+	
+it has two methods:1)Regression and 2) classification.
+Regresssion have continuous values while classification have categorical data in target value.
+
+it taking more computational time
+
+2)Unsupervised Learning:-
+	In this,no labeled data is there.Pattern are infronted from unlabeled data,
+
+Goal:To find hidden pattern will find from data
+
+it is close to AI 
+
+it has two methods:clustering and association
+
+Eyes--Legs--Fly--nose--beak--teeth--wings----- bag
+
+2--    4--  no-- yes-- no--  yes--  no   ------bag1
+2--    2--  no-- no--  yes-- yes-- no          bag1
+2--    4--  no-- yes--  no--  yes--  no        bag1
+2--    2    yes  yes   yes   no    yes         bag2
+1--    4--  no-- no--  no--  yes--  no         bag1
+2--    2    yes  yes   yes   no    yes         bag1
+2--    2    yes  yes   yes   no    yes         bag2
+2--    2    yes  yes   yes   no    yes         bag1
+2--    2    yes  yes   yes   no    yes         bag2
+
+3)Reinforcement Learning:
+
+Reward/Punishment after each action in envrionment --- No labeled data
+
+e.g.Robotics,Games
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

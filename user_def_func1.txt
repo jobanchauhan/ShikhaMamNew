@@ -1,0 +1,18 @@
+Create function udf_get_department
+(
+@departmentid varchar
+)
+returns table
+as
+begin
+
+declare @minsalary int
+
+select @minsalary=MIN(salary) from employeedetails
+
+return @maxsalary
+
+end
+
+select [dbo].[udf_employee_get_minsalary]()
+

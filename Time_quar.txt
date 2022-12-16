@@ -1,0 +1,104 @@
+Timestamp('2017-04-01 00:00:00')-> 30th 06 2017(2017-04-01)
+Timestamp('2017-07-01 00:00:00')-> 30th Sept 2017
+Timestamp('2017-10-01 00:00:00')-> 31st Dec 2017
+Timestamp('2018-01-01 00:00:00')-> 31st Mar 2018
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+period_Quar_fiscal = pd.Period("2018Q1",freq="Q-MAR")#Q-MAR is endtime of quarter
+
+a-17      Q1
+may-17
+june-17
+
+july-17  Q2
+aug-17
+sep-17
+
+period_Quar_fiscal = pd.Period("2018Q3",freq="Q-MAR")
+
+oct-17   Q3
+nov-17
+dec-17
+
+jan-18  Q4
+f-18
+mar-18
+
+periodrange_index_jan = pd.period_range("2011","2017",freq="Q-JAN")
+
+PeriodIndex(['2011Q4', '2012Q1', '2012Q2', '2012Q3', '2012Q4', '2013Q1',
+             '2013Q2', '2013Q3', '2013Q4', '2014Q1', '2014Q2', '2014Q3',
+             '2014Q4', '2015Q1', '2015Q2', '2015Q3', '2015Q4', '2016Q1',
+             '2016Q2', '2016Q3', '2016Q4', '2017Q1', '2017Q2', '2017Q3',
+             '2017Q4'],
+            dtype='period[Q-JAN]')	
+
+periodrange_index_jan[-1].start_time = Timestamp('2016-11-01 00:00:00')
+
+periodrange_index_jan[-1].end_time = Timestamp('2017-01-31 23:59:99')
+
+value		2017Q1 2017Q2		2017Q3	2017Q4  2018Q1
+
+PROFIT	21310		31345 	 15489	 47856	 14587
+
+COST		125478	125478	365982	154789	145879
+
+GAIN		147856	178563	451298	245630	210547
+
+DATE		START_DATE		END_DATE		PROFIT	COST		GAIN
+
+2017Q1	2016/02/01		2016/	04/30		21310   125478 147856
+
+2017Q2
+
+2017Q3
+
+2017Q4
+
+2018Q1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
